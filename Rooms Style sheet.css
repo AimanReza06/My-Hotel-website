@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+/* Webpage name/header */
+
+#webpageheader{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.headername{
+    color: white;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+    font-size: 9em;
+    margin: 0 auto;
+    position: absolute;
+    top: 300px;
+    right: 510px    ;
+}
+
+.headerbackground{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+/* Main room webpage content (The short introduction to the rooms webpage before showcasing the rooms) */
+
+.linebreak{
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.mainheader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #B28850;
+}
+
+.basictext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: black;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.alltheroomscontainer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+}
+
+/* Standard room container where image is on the right  */
+
+
+.roomcontainerright{
+
+}
+
+.roomimageright{
+    width: 600px;
+}
+
+.roomheadertextcontainerright{
+    margin-right: 50px;
+    margin-left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 20px;
+    height: 300px;
+}
+
+.roomheaderright{
+    text-align: center;
+    font-size: 40px;
+}
+
+.roomtextright{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.roombuttonright{
+    border: black solid 2px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-decoration: none; 
+    font-size: 1.5em;
+    color: black;
+    display: block;
+    text-align: center;
+    width: 130px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+.roombuttonright:hover{
+    border: #B28850 solid 2px;
+    color: #B28850;
+
+
+}
+
+/* Standard room container where image is on the left  */
+
+
+.roomcontainerleft{
+
+}
+
+.roomimageleft{
+    width: 600px;
+
+}
+
+.roomheadertextcontainerleft{
+    margin-right: 50px;
+    margin-left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 20px;
+    height: 300px;
+}
+
+.roomheaderleft{
+    text-align: center;
+    font-size: 40px;
+}
+
+.roomtextleft{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.roombuttonleft{
+    border: black solid 2px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-decoration: none; 
+    font-size: 1.5em;
+    color: black;
+    display: block;
+    text-align: center;
+    width: 130px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+.roombuttonleft:hover{
+    border: #B28850 solid 2px;
+    color: #B28850;
+}
+
+
+
+/* Footer */
+
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: #B28850;
+    margin-top: 300px;
+    outline: rgb(54, 228, 31) 3px solid;
+}
+
+.part1footer{
+    height: 70%;
+    width: 33%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: rgb(255, 255, 0) 3px solid;
+}
+
+.insidepart1{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    outline: red 3px solid;
+}
+
+h1.title{
+    color: black;
+    font-size: 28px;
+    outline: blue 3px solid;
+    
+}
+
+.socialmediaicons{
+    width: 30px;
+    border-radius: 50%;
+    border: black 1px solid;
+}
+
+.socialmediaicon{
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.part2footer{
+    width: 100%;
+    height: 30%;
+    outline: rgb(255, 0, 234) 3px solid;
+}
+
